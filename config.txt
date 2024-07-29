@@ -15,7 +15,7 @@
     "path_fooocus_expansion": "/content/Fooocus/models/prompt_expansion/fooocus_expansion",
     "path_wildcards": "/content/Fooocus/wildcards",
     "path_safety_checker": "/content/Fooocus/models/safety_checker",
-    "path_sam": "/content/Fooocus/models/sam",
+    "path_sam": "../models/sam/",
     "path_outputs": "/content/Fooocus/outputs",
     "default_loras": [
         [
