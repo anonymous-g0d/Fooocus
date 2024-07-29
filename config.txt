@@ -44,6 +44,9 @@
             1.0
         ]
     ],
-    "default_prompt_negative": "Low Quality, Ugly, Bad detailed",
+    "default_prompt_negative": "low quality, ugly, bad detailed, out of frame, lowres, text, error, cropped, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, username, watermark, signature.",
     "default_performance": "Quality",
+    "lora_downloads": {
+        "xl_more_art-full_v1.safetensors": "https://huggingface.co/anonymousg0d/backup/resolve/main/xl_more_art-full_v1.safetensors"
+    },
 }
