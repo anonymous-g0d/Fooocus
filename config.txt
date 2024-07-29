@@ -16,7 +16,7 @@
     "path_wildcards": "/content/Fooocus/wildcards",
     "path_safety_checker": "/content/Fooocus/models/safety_checker",
     "path_sam": "/content/Fooocus/models/sam",
-    "path_outputs": "/content/Fooocus/outputs"
+    "path_outputs": "/content/Fooocus/outputs",
     "default_loras": [
         [
             true,
@@ -48,5 +48,5 @@
     "default_performance": "Quality",
     "lora_downloads": {
         "xl_more_art-full_v1.safetensors": "https://huggingface.co/anonymousg0d/backup/resolve/main/xl_more_art-full_v1.safetensors"
-    },
+    }
 }
