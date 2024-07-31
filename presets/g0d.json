@@ -1,6 +1,6 @@
 {
     "default_model": "playground-v2.5-1024px-aesthetic.fp16.safetensors",
-    "default_refiner": "None",
+    "default_refiner": "refiner.safetensors",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
@@ -10,8 +10,8 @@
         ],
         [
             true,
-            "None",
-            1.0
+            "SDXLrender_v2.0.safetensors",
+            0.7
         ],
         [
             true,
@@ -44,11 +44,13 @@
     "default_overwrite_step": -1,
     "default_inpaint_engine_version": "None",
     "checkpoint_downloads": {
-        "playground-v2.5-1024px-aesthetic.fp16.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/playground-v2.5-1024px-aesthetic.fp16.safetensors"
+        "playground-v2.5-1024px-aesthetic.fp16.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/playground-v2.5-1024px-aesthetic.fp16.safetensors",
+        "refiner.safetensors": "https://huggingface.co/refiners/juggernaut.reborn/resolve/main/unet.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "xl_more_art-full_v1.safetensors": "https://huggingface.co/anonymousg0d/backup/resolve/main/xl_more_art-full_v1.safetensors"
+        "xl_more_art-full_v1.safetensors": "https://huggingface.co/anonymousg0d/backup/resolve/main/xl_more_art-full_v1.safetensors",
+        "SDXLrender_v2.0.safetensors": "https://huggingface.co/philz1337x/loras/resolve/main/SDXLrender_v2.0.safetensors"
     },
     "previous_default_models": [],
     "default_image_number": 1
